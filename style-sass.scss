@@ -1,0 +1,65 @@
+.custom-hover:hover {
+    color: #FF2C2C;
+}
+
+.acct {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    margin-right: .5rem;
+    padding: 0 10px;
+    border: 1px solid #000000cc;
+    border-radius: 10px;
+
+    li:first-child a {
+        border-right: 1px solid #000000ce;
+    }
+}
+// 
+.image-resize img {
+    width: 100%;
+}
+.image-resize p {
+    text-shadow: 1px 2px #000000cc;
+}
+// 
+.card-resize img {
+    width: 100%;
+    height: 400px;
+}
+footer {
+    background-color: #212529;
+    height: max-content;
+    margin: auto;
+    padding: 20px 0 30px;
+
+    .container {
+        position: relative;
+
+        a.img-pos img {
+            margin: 40px 30px 20px;
+        }
+    
+        .link-pos {
+            margin: auto 40px;
+    
+            a {
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 6px 0;
+            }
+        }
+    }
+}
+
+// media query to remove border for small device
+@media screen and (max-width: 991.33px) {
+    .acct {
+        border: 1px solid #000000cc;
+        margin: 10px auto;
+
+        li:first-child a {
+            border: none;
+        }
+    }
+}

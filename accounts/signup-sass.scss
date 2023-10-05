@@ -1,0 +1,108 @@
+.container {
+    border: 1px solid #ddd;
+
+    hr {
+        width: 95%;
+        margin: 20px 30px;
+    }
+
+    .bord-line {
+        border-right: 2px solid #3130307a;
+    }
+    .date-m {
+        width: 35%;
+    }
+    .btn {
+        width: 40%;
+    }
+    .bord-side {
+        margin-top: 10%;
+        text-align: center;
+        
+        .social-btn {
+            width: 70%;
+        }
+    }
+}
+// 
+@media screen and (max-width: 991.33px) {
+    .container {
+        .date-m {
+            width: 50%;
+        }
+        .btn {
+            width: 50%;
+        }
+        .bord-side {
+            margin-top: 15%;
+            .social-btn {
+                width: 80%;
+            }
+        }
+    }
+}
+// 
+@media screen and (max-width: 767.33px) {
+    .container {
+        hr {
+            margin: 20px 20px;
+        }
+        .bord-line {
+            border-right: none;
+            border-bottom: 2px solid #3130307a;
+        }
+        .btn {
+            margin: 25px auto 20px;
+            margin-left: 40px;
+        }
+        .bord-side {
+            margin-top: 30px;
+            margin-bottom: 35px;
+            text-align: center;
+            
+            .social-btn {
+                margin: 0;
+                width: 70%;
+            }
+        }
+    }
+}
+// 
+@media screen and (max-width: 575.33px) {
+    .container {
+        border: 1px solid #eee;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+}
+// 
+@media screen and (max-width: 375.33px) {
+    .container {
+        .btn {
+            width: 70%;
+            margin: 25px 10px;
+        }
+        .bord-side {
+            margin-top: 30px;
+            margin-bottom: 35px;
+            text-align: center;
+            
+            .social-btn {
+                margin: 0;
+                width: 80%;
+            }
+        }
+    }
+}
+// 
+@media screen and (max-width: 280.33px) {
+    .container {
+        hr {
+            margin: 20px 5px;
+        }
+        .btn {
+            width: 80%;
+            margin: 25px 0;
+        }
+    }
+}

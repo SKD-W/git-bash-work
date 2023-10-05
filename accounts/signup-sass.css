@@ -1,0 +1,91 @@
+.container {
+  border: 1px solid #ddd;
+}
+.container hr {
+  width: 95%;
+  margin: 20px 30px;
+}
+.container .bord-line {
+  border-right: 2px solid rgba(49, 48, 48, 0.4784313725);
+}
+.container .date-m {
+  width: 35%;
+}
+.container .btn {
+  width: 40%;
+}
+.container .bord-side {
+  margin-top: 10%;
+  text-align: center;
+}
+.container .bord-side .social-btn {
+  width: 70%;
+}
+
+@media screen and (max-width: 991.33px) {
+  .container .date-m {
+    width: 50%;
+  }
+  .container .btn {
+    width: 50%;
+  }
+  .container .bord-side {
+    margin-top: 15%;
+  }
+  .container .bord-side .social-btn {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 767.33px) {
+  .container hr {
+    margin: 20px 20px;
+  }
+  .container .bord-line {
+    border-right: none;
+    border-bottom: 2px solid rgba(49, 48, 48, 0.4784313725);
+  }
+  .container .btn {
+    margin: 25px auto 20px;
+    margin-left: 40px;
+  }
+  .container .bord-side {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .container .bord-side .social-btn {
+    margin: 0;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 575.33px) {
+  .container {
+    border: 1px solid #eee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+}
+@media screen and (max-width: 375.33px) {
+  .container .btn {
+    width: 70%;
+    margin: 25px 10px;
+  }
+  .container .bord-side {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .container .bord-side .social-btn {
+    margin: 0;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 280.33px) {
+  .container hr {
+    margin: 20px 5px;
+  }
+  .container .btn {
+    width: 80%;
+    margin: 25px 0;
+  }
+}/*# sourceMappingURL=signup-sass.css.map */

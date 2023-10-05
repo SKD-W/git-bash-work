@@ -1,0 +1,77 @@
+.custom-hover:hover, img {
+  color: #FF2C2C;
+}
+
+.acct {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  margin-right: 0.5rem;
+  padding: 0 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+.acct li:first-child a {
+  border-right: 1px solid rgba(0, 0, 0, 0.8078431373);
+}
+
+.custom-select {
+  width: 150px;
+}
+.custom-select select {
+  height: 30px;
+}
+
+.card-resize img.top-img {
+  width: 100%;
+  height: 200px;
+}
+.card-resize p span {
+  text-decoration: line-through;
+  color: #FF2C2C;
+  float: right;
+}
+
+footer {
+  background-color: #212529;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  padding: 20px 0 30px;
+}
+footer .container {
+  position: relative;
+}
+footer .container a.img-pos img {
+  margin: 40px 30px 20px;
+}
+footer .container .link-pos {
+  margin: auto 40px;
+}
+footer .container .link-pos a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .card-resize img.top-img {
+    width: 100%;
+    height: 230px;
+  }
+}
+@media screen and (max-width: 991.33px) {
+  .custom-select {
+    margin-top: 10px;
+  }
+  .card-resize img.top-img {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .card-resize img.top-img {
+    width: 100%;
+    height: 500px;
+  }
+}/*# sourceMappingURL=product-sass.css.map */

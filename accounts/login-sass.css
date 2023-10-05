@@ -1,0 +1,80 @@
+.container .bond-line {
+  border-right: 2px solid rgba(49, 48, 48, 0.4784313725);
+  line-height: 1;
+}
+.container .bond-line .lft-side img {
+  width: 100%;
+  margin-right: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .rgt-side {
+  border: 1px solid #ddd;
+  padding: 20px;
+  height: 400px;
+}
+.container .rgt-side .btn {
+  margin-top: 10px;
+  width: 40%;
+  background-color: #71a191;
+  color: #fff;
+}
+.container .rgt-side .btn:hover {
+  background-color: #406861;
+}
+
+@media screen and (max-width: 2560.33px) {
+  .container .top-rgt {
+    margin-top: 10px;
+  }
+  .container .top-rgt .rgt-side .btn {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1440.33px) {
+  .container .top-rgt {
+    margin-top: 10px;
+  }
+  .container .top-rgt .rgt-side .btn {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 991.33px) {
+  .container .rgt-side {
+    height: 350px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 767.33px) {
+  .container .bond-line {
+    border-right: none;
+    border-bottom: 2px solid rgba(49, 48, 48, 0.4784313725);
+  }
+  .container .bond-line .lft-side p {
+    padding-bottom: 20px;
+  }
+  .container .rgt-side {
+    border: none;
+    padding-top: 10px;
+    margin: 30px 0;
+    height: 350px;
+  }
+  .container .rgt-side .btn {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 357px) {
+  .container .rgt-side .btn {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 308.33px) {
+  .container .rgt-side .btn {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 253.33px) {
+  .container .rgt-side .btn {
+    width: 100%;
+  }
+}/*# sourceMappingURL=login-sass.css.map */

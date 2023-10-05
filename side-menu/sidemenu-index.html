@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/side-menu/sidemenu-sass.css">
+
+    <script src="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <title>D&G Online-Store/Profile</title>
+</head>
+<body>
+    <!-- nav toggle start-->
+    <nav>
+        <div class="hamicon">
+            <img src="/icons/list.svg" alt="hamburger-icon" class="dspSide">
+        </div>
+    </nav>
+    <!-- nav toggle end -->
+
+    <!-- side bar start-->
+    <div class="side-bar">
+        <p class="p-sign"><a href="#"><img src="/icons/person-fill.svg" alt="person-icon">skd00</a></p>
+        <p><a href="#"><img src="/icons/cart-check-fill.svg" alt="cart-icon">view cart</a></p>
+        <p><a href="#"><img src="/icons/clipboard2-check-fill.svg" alt="list-icon">wish list</a></p>
+        <p class="top-p"><a href="#"><img src="/icons/files-alt.svg" alt="file-icon" class="img-resize">view transactions</a></p>
+    </div>
+    <!-- side bar end -->
+
+    <script>
+
+        // side bar toggle display
+        var toggleSideBarOn = document.querySelector(".dspSide");
+        toggleSideBarOn.addEventListener("click", function() {
+            var sidebarDisplayChck = document.querySelector(".side-bar");
+            if (sidebarDisplayChck.style.display === "none") {
+                sidebarDisplayChck.style.display = "block";
+            } else {
+                sidebarDisplayChck.style.display = "none";
+            }
+        });
+
+    </script>
+</body>
+</html>
